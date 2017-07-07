@@ -59,19 +59,20 @@ end
 
   end
 
-  earth = Planet.new("earth", 100, 24, 365)
-  # earth.day
-  # earth.year
-  # earth.name
-  # earth.mass
-  system_1 = System.new
+  # earth = Planet.new("earth", 100, 24, 365)
+  # # earth.day
+  # # earth.year
+  # # earth.name
+  # # earth.mass
+  # system_1 = System.new
   # system_1.add(earth)
   # system_1.total_mass
 
 
-  twinkle = Star.new("john", 1000, "G-star")
-  system_1.add("twinkle")
-  system_1.total_mass
+  # sun = Star.new("sun", 1000, "G-star")
+  # our_moon = Moon.new()
+  # system_1.add(sun)
+  # system_1.total_mass
 
 
 
@@ -111,3 +112,17 @@ end
 
     end
   end
+
+  earth = Planet.new("earth", 100, 24, 365)
+  system_1 = System.new
+  system_1.add(earth)
+  system_1.total_mass
+
+
+  sun = Star.new("sun", 10645677, "G-star")
+  system_1.add(sun)
+  system_1.total_mass
+
+  # moon = Moon.new("moon", 500, 25, "uranus")
+  # system_1.add(moon)
+  # system_1.total_mass
