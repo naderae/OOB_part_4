@@ -94,15 +94,15 @@ end
 
 
 
-corn_field_1 = Corn.create("corn", 50)
-corn_field_2 = Corn.create("corn", 50)
-
-wheat_field_1 = Wheat.create("wheat", 50)
-wheat_field_2 = Wheat.create("wheat", 50)
-
-
-puts Field.all
-
-
-Field.harvest
-Field.status
+# corn_field_1 = Corn.create("corn", 50)
+# corn_field_2 = Corn.create("corn", 50)
+#
+# wheat_field_1 = Wheat.create("wheat", 50)
+# wheat_field_2 = Wheat.create("wheat", 50)
+#
+#
+# puts Field.all
+#
+#
+# Field.harvest
+# Field.status
