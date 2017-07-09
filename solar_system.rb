@@ -6,7 +6,7 @@
 
     end
 
-    def bodies
+    def self.all
       @@bodies
     end
 
